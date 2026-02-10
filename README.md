@@ -1,5 +1,21 @@
 # MySkills
 
+## Quick Update / Install
+
+Use `update-skill.sh` to install or update skills from GitHub quickly.
+
+Typical usage:
+
+```bash
+# Default: install/update ai-paper-writing from GitZH-Chen/MySkills (main)
+./update-skill.sh
+
+# Specify repo/path/ref
+./update-skill.sh --repo GitZH-Chen/MySkills --path ai-paper-writing --ref main
+```
+
+It installs when missing, and backs up then updates when already installed.
+
 Personal Codex skills for high-quality AI research.
 
 ## `ai-paper-writing`
