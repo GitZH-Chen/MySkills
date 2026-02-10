@@ -1,5 +1,7 @@
 # MySkills
 
+MySkills is a collection of personal AI agent skills for high-quality research, with a focus on top-tier AI conference/journal paper writing in LaTeX.
+
 ## Quick Update / Install
 
 Use `update-skill.sh` to install or update skills from GitHub quickly.
