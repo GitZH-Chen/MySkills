@@ -19,9 +19,6 @@ Path: `ai-paper-writing/`
 
 ```md
 Use $ai-paper-writing.
-
-Project-specific requirements:
-- Target venue: NeurIPS 2027
 ...
 ```
 
