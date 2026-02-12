@@ -1,6 +1,6 @@
 # AI-Research-Skills
 
-This is a collection of personal AI agent skills for research targeting top-tier ML venues. 
+This is a collection of personal AI agent skills for research targeting top-tier ML venues. This repository will grow to include additional skills for high-quality AI research.
 
 ## Quick Update / Install
 
@@ -18,24 +18,26 @@ Typical usage:
 
 It installs when missing, and backs up then updates when already installed.
 
-This repository will grow to include additional skills for high-quality AI research.
-
 ## `ai-paper-writing`
 
-Writing assistant for AI top-tier conference/journal papers in LaTeX.
+Writing assistant for AI top-tier conference/journal papers in LaTeX. This skill is designed to work with a VSCode + LaTeX Workshop workflow.
 
-- Drafting and polishing
-- Rebuttal
-- `grammar check`, only fixes grammar and checks template/LaTeX/equation formatting against project rules (including `Aux/Guidelines.pdf`); no polishing or rewriting.
-- `bib check`, cleans and standardizes `.bib` entries for target top-tier venues, keeping core fields and normalized venue abbreviations.
+- Drafting and polishing for manuscript sections
+- Rebuttal drafting and refinement
+- Predefined command `grammar check`: grammar-only correction (no polishing or rewriting), plus LaTeX/template/equation rule checks, including optional checks against `Aux/Guidelines.pdf`
+- Predefined command `bib check`: clean and standardize `.bib` entries for supported top-tier venues, keep core fields, normalize venue abbreviations, and report potential duplicate references
 
 Path: `ai-paper-writing/`
 
 ### Usage
 
+Add this section to your `AGENTS.md`:
+
 ```md
 Use $ai-paper-writing.
-...
+
+# Custom prompts
+# add your own prompts below
 ```
 
 ### File Conventions
