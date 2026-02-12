@@ -31,7 +31,7 @@ Path: `ai-paper-writing/`
 
 ### Usage
 
-Add this section to your `AGENTS.md`:
+You can structure your `AGENTS.md` as follows to include this skill in your workflow:
 
 ```md
 Use $ai-paper-writing.
