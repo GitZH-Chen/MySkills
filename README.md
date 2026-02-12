@@ -1,6 +1,6 @@
 # AI-Research-Skills
 
-This is a collection of personal AI agent skills for research targeting top-tier ML venues. This repository will grow to include additional skills for high-quality AI research.
+This is a collection of personal AI agent skills for research targeting top-tier ML venues. This repository will grow to include additional skills for high-quality AI research. 
 
 ## Quick Update / Install
 
